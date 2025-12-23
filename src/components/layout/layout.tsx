@@ -14,7 +14,7 @@ const inter = Inter({
 
 const ptSansCaption = PT_Sans_Caption({
     subsets: ['latin'],
-    weight: '700',
+    weight: ['400','700'],
     variable: '--font-sans'
 })
 
