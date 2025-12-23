@@ -23,7 +23,7 @@ export const PostCard = ({ slug, title, description, image, date, author }: Post
                     <div className="absolute top-0 right-0 px-3 py-1 bg-gray-600 backdrop-blur-sm  rounded-bl-[10px]">
                         <span className="text-gray-300 text-body-xs">{date}</span>
                     </div>
-                    <Image src={image} alt={title} width={288} height={144} className="w-full h-40 object-cover object-center  rounded-t-[8px]" />
+                    <Image src={image} alt={title} width={288} height={144} className="w-full h-40 object-cover object-center  rounded-[8px]" />
                 </div>
                 <div className="px-2 mt-4 space-y-4">
                     <h2 className="text-heading-sm text-gray-100 line-clamp-3 font-sans">{title}</h2>
