@@ -39,7 +39,7 @@ export default function PostPage() {
                                 {post?.title}
                             </h1>
                             <Avatar.Container>
-                                <Avatar.Image src={post?.author.avatar.trimEnd()} alt={post?.author.name} />
+                                <Avatar.Image src={post?.author.avatar.trimEnd()} alt={post?.author.name} size="sm" />
                                 <Avatar.Content>
                                     <Avatar.Title>{post?.author.name}</Avatar.Title>
                                     <Avatar.Description>Publicado em <time dateTime={post?.date}>{publishedDate}</time></Avatar.Description>
